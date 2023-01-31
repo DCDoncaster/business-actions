@@ -11,3 +11,6 @@ it('should render', () => {
 
   expect(screen.getByText('Business Contacts')).toBeInTheDocument();
 });
+it('should be magical and sparkly', ()=>{
+  expect(true).toBe(false);
+})
